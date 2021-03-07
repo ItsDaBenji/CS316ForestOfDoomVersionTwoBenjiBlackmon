@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &1489104 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5067443168629685414, guid: 7e8c3f5ed438d31498c37cb5652a3529, type: 3}
+  m_PrefabInstance: {fileID: 5067443168255748766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40635ed2f323e42eb82ebc6f34b99597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &251638937
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +339,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79601f54bf904554292455c8b6717bd7, type: 3}
+--- !u!114 &356347401 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6902620371199631792, guid: 10811768b93728844bba8037790e4062, type: 3}
+  m_PrefabInstance: {fileID: 8605749731838474407}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &379006658
 GameObject:
   m_ObjectHideFlags: 0
@@ -20041,6 +20063,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5067443168629685414, guid: 7e8c3f5ed438d31498c37cb5652a3529, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 356347401}
+    - target: {fileID: 5067443168629685414, guid: 7e8c3f5ed438d31498c37cb5652a3529, type: 3}
       propertyPath: energyBall
       value: 
       objectReference: {fileID: 250562286125630872, guid: dd66a7dc1713fd34dbac186f15cc8acb, type: 3}
@@ -20231,6 +20257,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1952215473, guid: 10811768b93728844bba8037790e4062, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1489104}
     - target: {fileID: 8605749731171566057, guid: 10811768b93728844bba8037790e4062, type: 3}
       propertyPath: m_Name
       value: Canvas
