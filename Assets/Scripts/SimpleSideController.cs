@@ -88,16 +88,17 @@ public class SimpleSideController : MonoBehaviour
             animator.SetBool("isJumping", true);
         }
 
-        if (Input.GetButtonDown("Fire1")) 
+/*        if (Input.GetButtonDown("Fire1")) 
         {
-            animator.SetTrigger("IsAttack");
+            
             // now instantiate the ball and propel forward
             FireEnergyBall();
-        }
+        }*/
     }
 
     public void FireEnergyBall() 
     {
+        animator.SetTrigger("IsAttack");
         // the Bullet instantiation happens here
         GameObject brandNewPewPew;
         brandNewPewPew = Instantiate(energyBall, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;

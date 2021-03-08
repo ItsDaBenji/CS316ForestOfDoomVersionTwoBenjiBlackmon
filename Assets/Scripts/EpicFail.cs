@@ -20,7 +20,7 @@ public class EpicFail : MonoBehaviour
             // sure this function is being called
             Debug.Log("there went HexBoi");
 
-            if (gameManager.numLivesLeft < 0)
+            if (gameManager.numLivesLeft <= 0)
             {
                 SceneManager.LoadScene("GameOver");
             }
