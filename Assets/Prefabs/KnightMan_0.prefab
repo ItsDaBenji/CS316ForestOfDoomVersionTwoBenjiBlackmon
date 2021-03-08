@@ -232,9 +232,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpForce: 300
+  jumpForce: 350
   isGrounded: 1
   bulletForce: 50
   spawnPoint: {fileID: 5067443168397140906}
   energyBall: {fileID: 0}
   fireForward: 1
+  joystick: {fileID: 0}
